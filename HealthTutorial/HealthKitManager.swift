@@ -10,7 +10,7 @@ import Foundation
 import HealthKit
 
 class HealthKitManager {
-    //
+    /////
     let healthKitStore: HKHealthStore = HKHealthStore()
     
     func authorizeHealthKit(completion: ((success: Bool, error: NSError!) -> Void)!) {
