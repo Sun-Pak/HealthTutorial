@@ -32,6 +32,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         super.viewDidLoad()
         locationManager.requestWhenInUseAuthorization()
         
+        
         if CLLocationManager.locationServicesEnabled(){
             locationManager.delegate = self
             locationManager.desiredAccuracy = kCLLocationAccuracyBest
@@ -39,6 +40,15 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             print("Need to Enable Location")
         }
         
+        let name = self.hash
+        
+        // Google Analytics SCREEN TRACKING
+        let tracker = GAI.sharedInstance().defaultTracker
+        tracker.set(kGAIScreenName, value: "\(name)")
+        
+        let builder = GAIDictionaryBuilder.createScreenView()
+        tracker.send(builder.build() as [NSObject : AnyObject])
+
         // We cannot access the user's HealthKit data without specific permission.
         getHealthKitPermission()
     }
