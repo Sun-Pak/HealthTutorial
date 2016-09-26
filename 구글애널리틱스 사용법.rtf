@@ -1,0 +1,102 @@
+{\rtf1\ansi\ansicpg949\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fnil\fcharset129 AppleSDGothicNeo-Regular;\f1\fswiss\fcharset0 ArialMT;\f2\fmodern\fcharset0 Courier;
+\f3\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red27\green29\blue31;\red42\green55\blue62;\red245\green245\blue245;
+\red0\green116\blue0;\red170\green13\blue145;\red92\green38\blue153;\red63\green110\blue116;\red38\green71\blue75;
+\red46\green13\blue110;\red196\green26\blue22;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 /*0. idk \'b4\'f5\'c7\'cf\'b1\'e2 {\field{\*\fldinst{HYPERLINK "https://developers.google.com/analytics/devguides/collection/ios/v3/sdk-download"}}{\fldrslt https://developers.google.com/analytics/devguides/collection/ios/v3/sdk-download}}\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl380\sa150\partightenfactor0
+\ls1\ilvl0
+\f1\fs22 \cf2 {\listtext	1.	}\expnd0\expndtw0\kerning0
+Go to Build Phases >Link Binary with Librairies > + > Add other\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	2.	}\expnd0\expndtw0\kerning0
+Once in the file selection window do "CMD"+Shift+G (Go to folder) and type /usr/lib/\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	3.	}\expnd0\expndtw0\kerning0
+From /usr/lib you can add : libz.dylib and more...\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl380\partightenfactor0
+\ls1\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	4.	}\expnd0\expndtw0\kerning0
+Compile and have fun\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 */ \'ba\'d2\'c7\'ca\'bf\'e4\'c7\'d4\
+\
+\
+\
+\
+/*\
+1. \'c5\'cd\'b9\'cc\'b3\'ce -  brew install ruby\
+\
+2. \'c5\'cd\'b9\'cc\'b3\'ce - sudo gem install cocoapods\
+*/ \'c3\'b3\'c0\'bd \'c7\'d1\'b9\'f8\'b8\'b8\
+\
+\
+\
+3. \'c5\'cd\'b9\'cc\'b3\'ce \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae \'c0\'cc\'b5\'bf - cd \'c6\'fa\'b4\'f5\'b0\'e6\'b7\'ce\
+\
+4. pod init\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\fs28 \cf0 \expnd0\expndtw0\kerning0
+\
+7. configuration files download at google analytics\
+\
+8. add to xcode \'c6\'fa\'b4\'f5\'bf\'a1 \'b1\'d7\'b3\'c9 \'b3\'d6\'b1\'e2
+\fs24 \kerning1\expnd0\expndtw0 \
+\
+5. xcode \'b4\'dd\'b0\'ed podfile\'c0\'bb \'bf\'ad\'be\'ee\'bc\'ad 
+\fs28 \expnd0\expndtw0\kerning0
+pod 'Google/Analytics' \'b3\'bb\'bf\'eb \'c3\'df\'b0\'a1(\'b0\'b3\'b6\'b1\'b0\'b0\'be\'c6!!!!!!!!!!!!!!!!!!!)\
+\
+//5-1. \'b8\'b8\'be\'e0 \'b1\'b8\'b1\'db \'b7\'ce\'b1\'d7\'c0\'ce\'b5\'b5 \'be\'b2\'b0\'ed \'bd\'cd\'b4\'d9\'b8\'e9 pod \'a1\'aeGoogle/SignIn\'a1\'af \'b5\'b5 \'c3\'df\'b0\'a1 \'be\'c6\'bf\'c0\'a4\'b5\'a4\'b2\
+\
+6. pod install //\'bd\'c3\'b0\'a3\'c1\'bb \'b8\'b9\'c0\'cc \'b0\'c9\'b8\'b2. \'c1\'a4\'bb\'f3\'c0\'fb\'c0\'cc\'b8\'e9 \'b1\'dd\'b9\'e6. \
+\
+\'c0\'cc \'c0\'cc\'c8\'c4\'ba\'ce\'c5\'cd\'b4\'c2 \'c7\'c1\'b7\'ce\'c1\'a7\'c6\'ae \'c6\'c4\'c0\'cf\'c0\'bb 
+\f2 \cf3 \cb4 .xcworkspace
+\f0 \'b6\'f3\'b0\'ed \'bb\'fd\'b0\'a2\'c7\'d8\'b6\'f3
+\f2 .
+\f0 \cf0 \cb1 \
+\
+9. \'b0\'b3\'b6\'b1\'b0\'b0\'c0\'ba bridgeheader \'b8\'b8\'b5\'e9\'b0\'ed, \'ba\'f4\'b5\'e5\'bc\'bc\'c6\'c3\'bf\'a1\'b4\'d9 \'c7\'c1\'b7\'ce\'c1\'a7\'c6\'ae\'c6\'fa\'c5\'cd/\'ba\'ea\'b8\'b4\'c1\'f6\'c7\'d8\'b4\'f5 \'b4\'f5\'c7\'cf\'b1\'e2.\
+// {\field{\*\fldinst{HYPERLINK "http://comxp.tistory.com/294"}}{\fldrslt http://comxp.tistory.com/294}} \'c2\'fc\'c1\'b6\
+\
+9-1. appdelegate\'c0\'c7 
+\f3\fs22 \kerning1\expnd0\expndtw0 \CocoaLigature0 didFinishLaunchingWithOptions
+\f0\fs28 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \'bf\'a1 \'c4\'da\'b5\'e5 \'b4\'f5\'c7\'cf\'b1\'e2.\
+\
+\pard\tx529\pardeftab529\pardirnatural\partightenfactor0
+
+\f3\fs22 \cf5 \kerning1\expnd0\expndtw0 \CocoaLigature0 // Override point for customization after application launch.\
+\cf0         \cf5 // Configure tracker from GoogleService-Info.plist.\
+\cf0         \cf6 var\cf0  configureError:\cf7 NSError\cf0 ?\
+        \cf8 GGLContext\cf0 .\cf9 sharedInstance\cf0 ().\cf9 configureWithError\cf0 (&configureError)\
+        \cf10 assert\cf0 (configureError == \cf6 nil\cf0 , \cf11 "Error configuring Google services: \cf0 \\\cf11 (\cf0 configureError\cf11 )"\cf0 )\
+        \
+        \cf5 // Optional: configure GAI options.\
+\cf0         \cf6 let\cf0  gai = \cf8 GAI\cf0 .\cf9 sharedInstance\cf0 ()\
+        gai.\cf8 trackUncaughtExceptions\cf0  = \cf6 true\cf0   \cf5 // report uncaught exceptions\
+\cf0         gai.\cf8 logger\cf0 .\cf8 logLevel\cf0  = \cf8 GAILogLevel\cf0 .\cf9 Verbose\cf0   \cf5 // remove before app release\
+\cf0    
+\f0\fs28 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+10. viewcontroller\'bf\'a1  (\'b5\'a5\'c0\'cc\'c5\'cd\'b0\'aa\'c0\'bb \'bd\'ba\'c5\'a9\'b8\'b0 \'b0\'aa\'c0\'c7 \'c7\'d8\'bd\'ac\'b0\'aa\'c0\'bb \'b9\'de\'be\'c6\'bc\'ad \'b3\'d6\'b0\'d4 \'c7\'d8\'b5\'d2.)\
+\pard\tx529\pardeftab529\pardirnatural\partightenfactor0
+
+\f3\fs22 \cf0 \kerning1\expnd0\expndtw0 \CocoaLigature0         \
+        \cf6 let\cf0  name = \cf11 "Pattern~\cf0 \\\cf11 (\cf6 self\cf0 .\cf7 hash\cf11 )"\cf5 \
+\cf0         \cf6 let\cf0  tracker = \cf8 GAI\cf0 .\cf9 sharedInstance\cf0 ().\cf8 defaultTracker\cf0 \
+        tracker.\cf9 set\cf0 (\cf8 kGAIScreenName\cf0 , value: name)\
+        \
+        \cf6 let\cf0  builder = \cf8 GAIDictionaryBuilder\cf0 .\cf9 createScreenView\cf0 ()\
+        tracker.\cf9 send\cf0 (builder.\cf9 build\cf0 () \cf6 as\cf0  [\cf7 NSObject\cf0  : \cf7 AnyObject\cf0 ])\
+        \cf5 // [END screen_view_hit_swift]\
+\cf0 \
+}
