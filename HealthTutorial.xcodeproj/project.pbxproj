@@ -7,17 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		006471C921375803FE1A047E /* Pods_HealthTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091276F38A457F23E7F62C51 /* Pods_HealthTutorial.framework */; };
 		B605E76A1D7E89570046FF5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B605E7691D7E89570046FF5F /* AppDelegate.swift */; };
 		B605E76C1D7E89570046FF5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B605E76B1D7E89570046FF5F /* ViewController.swift */; };
 		B605E76F1D7E89570046FF5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B605E76D1D7E89570046FF5F /* Main.storyboard */; };
 		B605E7711D7E89570046FF5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B605E7701D7E89570046FF5F /* Assets.xcassets */; };
 		B605E7741D7E89570046FF5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B605E7721D7E89570046FF5F /* LaunchScreen.storyboard */; };
 		B605E77C1D7E89620046FF5F /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B605E77B1D7E89620046FF5F /* HealthKit.framework */; };
-		B605E77F1D7E897C0046FF5F /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B605E77E1D7E897C0046FF5F /* HealthKitManager.swift */; };
 		B605E7811D7EA7E20046FF5F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B605E7801D7EA7E20046FF5F /* CoreLocation.framework */; };
+		B60D3C1C1D9504B90044FB9F /* Podfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60D3C1B1D9504B90044FB9F /* Podfile.swift */; };
+		B6B9AD901D98D4EF00F6AC84 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6B9AD8F1D98D4EF00F6AC84 /* GoogleService-Info.plist */; };
+		B6C971C51D952183006E42CF /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C971C41D952183006E42CF /* HealthKitManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		091276F38A457F23E7F62C51 /* Pods_HealthTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		741B692F1F6FFE69E12EA8A4 /* Pods-HealthTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthTutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthTutorial/Pods-HealthTutorial.debug.xcconfig"; sourceTree = "<group>"; };
 		B605E7661D7E89570046FF5F /* HealthTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B605E7691D7E89570046FF5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B605E76B1D7E89570046FF5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,8 +32,12 @@
 		B605E7751D7E89570046FF5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B605E77B1D7E89620046FF5F /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		B605E77D1D7E89620046FF5F /* HealthTutorial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HealthTutorial.entitlements; sourceTree = "<group>"; };
-		B605E77E1D7E897C0046FF5F /* HealthKitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
 		B605E7801D7EA7E20046FF5F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B60D3C1B1D9504B90044FB9F /* Podfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Podfile.swift; sourceTree = "<group>"; };
+		B6B9AD8F1D98D4EF00F6AC84 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B6C971C41D952183006E42CF /* HealthKitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		B6EC2A8E1D950EDB00120D98 /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		DC1B28135EF7FF340B65D788 /* Pods-HealthTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthTutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthTutorial/Pods-HealthTutorial.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,19 +47,32 @@
 			files = (
 				B605E7811D7EA7E20046FF5F /* CoreLocation.framework in Frameworks */,
 				B605E77C1D7E89620046FF5F /* HealthKit.framework in Frameworks */,
+				006471C921375803FE1A047E /* Pods_HealthTutorial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B2FD067171583F709AC72A45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				741B692F1F6FFE69E12EA8A4 /* Pods-HealthTutorial.debug.xcconfig */,
+				DC1B28135EF7FF340B65D788 /* Pods-HealthTutorial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B605E75D1D7E89570046FF5F = {
 			isa = PBXGroup;
 			children = (
+				B6B9AD8F1D98D4EF00F6AC84 /* GoogleService-Info.plist */,
 				B605E7801D7EA7E20046FF5F /* CoreLocation.framework */,
 				B605E77B1D7E89620046FF5F /* HealthKit.framework */,
 				B605E7681D7E89570046FF5F /* HealthTutorial */,
 				B605E7671D7E89570046FF5F /* Products */,
+				B2FD067171583F709AC72A45 /* Pods */,
+				F3ADB8AC4898FB87C7B695FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,8 +88,10 @@
 			isa = PBXGroup;
 			children = (
 				B605E77D1D7E89620046FF5F /* HealthTutorial.entitlements */,
+				B6C971C41D952183006E42CF /* HealthKitManager.swift */,
 				B605E7691D7E89570046FF5F /* AppDelegate.swift */,
-				B605E77E1D7E897C0046FF5F /* HealthKitManager.swift */,
+				B6EC2A8E1D950EDB00120D98 /* BridgingHeader.h */,
+				B60D3C1B1D9504B90044FB9F /* Podfile.swift */,
 				B605E76B1D7E89570046FF5F /* ViewController.swift */,
 				B605E76D1D7E89570046FF5F /* Main.storyboard */,
 				B605E7701D7E89570046FF5F /* Assets.xcassets */,
@@ -77,6 +101,14 @@
 			path = HealthTutorial;
 			sourceTree = "<group>";
 		};
+		F3ADB8AC4898FB87C7B695FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				091276F38A457F23E7F62C51 /* Pods_HealthTutorial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -84,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B605E7781D7E89570046FF5F /* Build configuration list for PBXNativeTarget "HealthTutorial" */;
 			buildPhases = (
+				95ADCBDA4FB18321FB035B03 /* [CP] Check Pods Manifest.lock */,
 				B605E7621D7E89570046FF5F /* Sources */,
 				B605E7631D7E89570046FF5F /* Frameworks */,
 				B605E7641D7E89570046FF5F /* Resources */,
+				CFA547F287797969A3BB1D30 /* [CP] Embed Pods Frameworks */,
+				5A59DB902FFF9005A8B8F881 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -142,12 +177,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				B605E7741D7E89570046FF5F /* LaunchScreen.storyboard in Resources */,
+				B6B9AD901D98D4EF00F6AC84 /* GoogleService-Info.plist in Resources */,
 				B605E7711D7E89570046FF5F /* Assets.xcassets in Resources */,
 				B605E76F1D7E89570046FF5F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A59DB902FFF9005A8B8F881 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthTutorial/Pods-HealthTutorial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95ADCBDA4FB18321FB035B03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CFA547F287797969A3BB1D30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthTutorial/Pods-HealthTutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B605E7621D7E89570046FF5F /* Sources */ = {
@@ -156,7 +240,8 @@
 			files = (
 				B605E76C1D7E89570046FF5F /* ViewController.swift in Sources */,
 				B605E76A1D7E89570046FF5F /* AppDelegate.swift in Sources */,
-				B605E77F1D7E897C0046FF5F /* HealthKitManager.swift in Sources */,
+				B6C971C51D952183006E42CF /* HealthKitManager.swift in Sources */,
+				B60D3C1C1D9504B90044FB9F /* Podfile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +354,7 @@
 		};
 		B605E7791D7E89570046FF5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 741B692F1F6FFE69E12EA8A4 /* Pods-HealthTutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = HealthTutorial/HealthTutorial.entitlements;
@@ -276,11 +362,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sumco.HealthTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = HealthTutorial/BridgingHeader.h;
 			};
 			name = Debug;
 		};
 		B605E77A1D7E89570046FF5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC1B28135EF7FF340B65D788 /* Pods-HealthTutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = HealthTutorial/HealthTutorial.entitlements;
@@ -288,6 +376,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sumco.HealthTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = HealthTutorial/BridgingHeader.h;
 			};
 			name = Release;
 		};
@@ -310,6 +399,7 @@
 				B605E77A1D7E89570046FF5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
